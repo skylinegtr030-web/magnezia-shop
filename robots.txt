@@ -1,1 +1,4 @@
-ROBOTS_PLACEHOLDER
+User-agent: *
+Allow: /
+
+Sitemap: https://skylinegtr030-web.github.io/magnezia-shop/sitemap.xml
