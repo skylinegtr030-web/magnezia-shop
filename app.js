@@ -216,7 +216,7 @@ function initTilt(){
       var r=card.getBoundingClientRect();
       var x=(e.clientX-r.left)/r.width-0.5;
       var y=(e.clientY-r.top)/r.height-0.5;
-      card.style.transform='translateY(-6px) rotateX('+(-y*8)+'deg) rotateY('+(x*10)+'deg)';
+      card.style.transform='perspective(700px) translateY(-6px) rotateX('+(-y*12)+'deg) rotateY('+(x*14)+'deg)';
     });
     card.addEventListener('mouseleave',function(){
       card.style.transform='';
